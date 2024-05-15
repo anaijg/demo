@@ -15,8 +15,6 @@ public class SumarController {
     private TextField txtOperador1;
     @FXML
     private TextField txtOperador2;
-    @FXML
-    private Button btnSumar;
 
     @FXML
     protected void sumar(ActionEvent actionEvent) {
@@ -25,8 +23,7 @@ public class SumarController {
         int suma = operador1 + operador2;
         String sumaComoCadena = String.valueOf(suma);
         // quiero que esa suma la muestre la etiqueta resultado
-
-
+        lblResultado.setText(sumaComoCadena);
     }
 
 
