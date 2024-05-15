@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd100a9-9420-41b9-9919-1969c6a8802a" name="Changes" comment="Hecha la vista y lanzada la aplicación. Falta el controller">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/aulafx/prueba1/sumar-view.fxml" afterDir="false" />
+    <list default="true" id="4fd100a9-9420-41b9-9919-1969c6a8802a" name="Changes" comment="Terminado el ejercicio sumar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aulafx/prueba1/modelo/AppPersonas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/aulafx/prueba1/personas-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aulafx/prueba1/controlador/SumarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aulafx/prueba1/controlador/SumarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/aulafx/prueba1/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/aulafx/prueba1/primary.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/aulafx/prueba1/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/aulafx/prueba1/sumar-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/aulafx/prueba1/sumar-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,9 @@
       <recent name="C:\Users\AnaIJim\IdeaProjects\demo\src" />
       <recent name="C:\Users\AnaIJim\IdeaProjects\demo\src\main\java\com\aulafx\prueba1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aulafx.prueba1.modelo" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.AppSumar">
     <configuration name="AppSumar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -115,6 +114,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -129,7 +129,8 @@
       <workItem from="1715182748544" duration="6410000" />
       <workItem from="1715612472191" duration="4938000" />
       <workItem from="1715700683917" duration="688000" />
-      <workItem from="1715787444986" duration="1094000" />
+      <workItem from="1715787444986" duration="1667000" />
+      <workItem from="1715789130934" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="Hecha la vista y lanzada la aplicación. Falta el controller">
       <option name="closed" value="true" />
@@ -139,7 +140,47 @@
       <option name="project" value="LOCAL" />
       <updated>1715616172361</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Haciendo el controller. No sale String.valueof para la suma">
+      <option name="closed" value="true" />
+      <created>1715788586862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715788586863</updated>
+    </task>
+    <task id="LOCAL-00003" summary="La magia del cochinillo. No sé qué pasaba.">
+      <option name="closed" value="true" />
+      <created>1715788856776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715788856776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="La magia del cochinillo. No sé qué pasaba.">
+      <option name="closed" value="true" />
+      <created>1715788923311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715788923311</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Terminado el ejercicio sumar">
+      <option name="closed" value="true" />
+      <created>1715789394869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789394869</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Terminado el ejercicio sumar">
+      <option name="closed" value="true" />
+      <created>1715791093096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715791093096</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +199,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hecha la vista y lanzada la aplicación. Falta el controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hecha la vista y lanzada la aplicación. Falta el controller" />
+    <MESSAGE value="Haciendo el controller. No sale String.valueof para la suma" />
+    <MESSAGE value="La magia del cochinillo. No sé qué pasaba." />
+    <MESSAGE value="Terminado el ejercicio sumar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado el ejercicio sumar" />
   </component>
 </project>
