@@ -23,6 +23,7 @@ public class SumarController {
         int operador1 = Integer.parseInt(txtOperador1.getText());
         int operador2 = Integer.parseInt(txtOperador2.getText());
         int suma = operador1 + operador2;
+        String sumaComoCadena = String.valueOf(suma);
         // quiero que esa suma la muestre la etiqueta resultado
 
 
