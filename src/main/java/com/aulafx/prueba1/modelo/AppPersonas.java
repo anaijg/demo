@@ -12,7 +12,7 @@ public class AppPersonas extends Application { // no se toca
     @Override
     public void start(Stage stage) throws IOException { // esto no se cambia
         FXMLLoader fxmlLoader = new FXMLLoader(AppPersonas.class.getResource("/com/aulafx/prueba1/personas-view.fxml")); // aquí cambiamos la ruta del fxml; lo demás no se toca
-        Scene scene = new Scene(fxmlLoader.load(), 500, 500); // definimos el tamaño que queremos, lo demás no cambia
+        Scene scene = new Scene(fxmlLoader.load(), 565, 260); // definimos el tamaño que queremos, lo demás no cambia
 
         stage.setScene(scene); // esto no se toca
         stage.show(); // esto no se toca
